@@ -67,6 +67,18 @@
     <Compile Include="Login.designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenimientoCarreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCarreas.Designer.cs">
+      <DependentUpon>MantenimientoCarreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManteniminetoCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManteniminetoCursos.Designer.cs">
+      <DependentUpon>ManteniminetoCursos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +101,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCarreas.resx">
+      <DependentUpon>MantenimientoCarreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManteniminetoCursos.resx">
+      <DependentUpon>ManteniminetoCursos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menup.resx">
       <DependentUpon>Menup.cs</DependentUpon>
