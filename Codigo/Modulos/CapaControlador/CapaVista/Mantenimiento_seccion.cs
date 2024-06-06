@@ -15,6 +15,16 @@ namespace CapaVista
         public Mantenimiento_seccion()
         {
             InitializeComponent();
+            
+        }
+
+        private void txt_estatus_TextChanged(object sender, EventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+            if (string.IsNullOrEmpty(textBox.Text))
+            {
+                ((TextBox)sender).Text = "1";
+            }
         }
     }
 }
