@@ -225,6 +225,7 @@ namespace CapaVista
             this.btnSeguridad.Text = "MANTENIMIENTOS";
             this.btnSeguridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSeguridad.UseVisualStyleBackColor = false;
+            this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
             // panelseguridad
             // 
@@ -248,7 +249,7 @@ namespace CapaVista
             this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(555, 69);
+            this.button8.Size = new System.Drawing.Size(555, 61);
             this.button8.TabIndex = 12;
             this.button8.Text = "ASIGNACION MAESTRO-CURSOS";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,6 +273,7 @@ namespace CapaVista
             this.btnReportes.Text = "TRANSACCIONAL";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btninicio
             // 
