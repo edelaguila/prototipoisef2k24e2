@@ -34,8 +34,8 @@ namespace CapaVista
             this.navegador1 = new Navegador2._0.Navegador();
             this.txt_estatus = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txt_codFacultad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.txt_codFacultad = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +70,7 @@ namespace CapaVista
             this.txt_estatus.Name = "txt_estatus";
             this.txt_estatus.Size = new System.Drawing.Size(43, 22);
             this.txt_estatus.TabIndex = 3;
+            this.txt_estatus.Tag = "estatus_facultad";
             this.txt_estatus.Text = "1";
             this.txt_estatus.Visible = false;
             this.txt_estatus.TextChanged += new System.EventHandler(this.txt_estatus_TextChanged);
@@ -85,14 +86,6 @@ namespace CapaVista
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.Tag = "facultades";
             // 
-            // txt_codFacultad
-            // 
-            this.txt_codFacultad.Location = new System.Drawing.Point(183, 192);
-            this.txt_codFacultad.Name = "txt_codFacultad";
-            this.txt_codFacultad.Size = new System.Drawing.Size(131, 22);
-            this.txt_codFacultad.TabIndex = 6;
-            this.txt_codFacultad.Tag = "codigo_facultad";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -101,6 +94,14 @@ namespace CapaVista
             this.label2.Size = new System.Drawing.Size(126, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Código de facultad";
+            // 
+            // txt_codFacultad
+            // 
+            this.txt_codFacultad.Location = new System.Drawing.Point(183, 192);
+            this.txt_codFacultad.Name = "txt_codFacultad";
+            this.txt_codFacultad.Size = new System.Drawing.Size(131, 22);
+            this.txt_codFacultad.TabIndex = 6;
+            this.txt_codFacultad.Tag = "codigo_facultad";
             // 
             // Mantenimiento_facultad
             // 
@@ -129,7 +130,7 @@ namespace CapaVista
         private Navegador2._0.Navegador navegador1;
         private System.Windows.Forms.TextBox txt_estatus;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox txt_codFacultad;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_codFacultad;
     }
 }

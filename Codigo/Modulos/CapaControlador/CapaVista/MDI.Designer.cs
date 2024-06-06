@@ -174,6 +174,7 @@ namespace CapaVista
             this.btn_mant_cliente.Text = "MANTENIMIENTO FACULTAD";
             this.btn_mant_cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_mant_cliente.UseVisualStyleBackColor = true;
+            this.btn_mant_cliente.Click += new System.EventHandler(this.btn_mant_cliente_Click);
             // 
             // mant_moneda
             // 
@@ -190,6 +191,7 @@ namespace CapaVista
             this.mant_moneda.Text = "MANTENIMIENTO SECCION";
             this.mant_moneda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.mant_moneda.UseVisualStyleBackColor = true;
+            this.mant_moneda.Click += new System.EventHandler(this.mant_moneda_Click);
             // 
             // btn_mant_tipo_cuenta
             // 
