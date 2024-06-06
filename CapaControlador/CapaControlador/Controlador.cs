@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaModelo
+namespace CapaControlador
 {
-    public class Class1
+    class Controlador
     {
     }
 }
