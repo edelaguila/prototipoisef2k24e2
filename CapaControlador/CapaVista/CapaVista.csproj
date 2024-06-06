@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>9e684e94-0524-40a3-bf4d-7a7dbe7bf753</ProjectGuid>
+    <ProjectGuid>{9E684E94-0524-40A3-BF4D-7A7DBE7BF753}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CapaVista</RootNamespace>
@@ -31,24 +31,69 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="CapaControlador">
+      <HintPath>..\CapaControlador\bin\Debug\CapaControlador.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AsignacionCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignacionCursos.Designer.cs">
+      <DependentUpon>AsignacionCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_carrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_carrera.Designer.cs">
+      <DependentUpon>Mantenimiento_carrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_cursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_cursos.Designer.cs">
+      <DependentUpon>Mantenimiento_cursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_facultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_facultad.Designer.cs">
+      <DependentUpon>Mantenimiento_facultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_maestros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_maestros.Designer.cs">
+      <DependentUpon>Mantenimiento_maestros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_seccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_seccion.Designer.cs">
+      <DependentUpon>Mantenimiento_seccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI.Designer.cs">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MDI.resx">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
