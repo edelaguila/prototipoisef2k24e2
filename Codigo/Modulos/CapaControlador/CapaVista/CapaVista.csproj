@@ -35,7 +35,7 @@
       <HintPath>..\CapaControlador\bin\Debug\CapaControlador.dll</HintPath>
     </Reference>
     <Reference Include="Navegador2.0">
-      <HintPath>..\..\..\Componentes\Navegador2.0\Navegador2.0\bin\Debug\Navegador2.0.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Proyecto Base del Sistema Bancario\ISP12k24\Equipo2\Codigo\Componentes\Navegador2.0\Navegador2.0\bin\Debug\Navegador2.0.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -94,11 +94,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mantenimiento_facultad.resx">
-      <DependentUpon>Mantenimiento_facultad.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimiento_seccion.resx">
-      <DependentUpon>Mantenimiento_seccion.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimiento_maestros.resx">
+      <DependentUpon>Mantenimiento_maestros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>
