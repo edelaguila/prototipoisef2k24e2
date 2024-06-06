@@ -15,6 +15,7 @@ namespace CapaVista
         public Mantenimiento_cursos()
         {
             InitializeComponent();
+            navegador1.config("cursos", this, "8002");
         }
     }
 }

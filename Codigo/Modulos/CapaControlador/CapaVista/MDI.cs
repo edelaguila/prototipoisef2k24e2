@@ -61,5 +61,17 @@ namespace CapaVista
             Mantenimiento_seccion frm = new Mantenimiento_seccion();
             frm.Show();
         }
+
+        private void btn_mant_estados_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_cursos form = new Mantenimiento_cursos();
+            form.Show();
+        }
+
+        private void btn_mant_tarjeta_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_carrera form = new Mantenimiento_carrera();
+            form.Show();
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace CapaVista
         public Mantenimiento_carrera()
         {
             InitializeComponent();
+            navegador1.config("carreras", this, "8005");
         }
     }
 }

@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Reporteador;
+
 
 namespace Navegador2._0
 {
@@ -419,8 +419,7 @@ namespace Navegador2._0
 
         private void btn_imprimir_Click(object sender, EventArgs e)
         {
-            Reportes reporte = new Reportes();
-            reporte.Show();
+           
         }
     }
 }

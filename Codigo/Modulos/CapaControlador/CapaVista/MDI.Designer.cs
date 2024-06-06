@@ -142,6 +142,7 @@ namespace CapaVista
             this.btn_mant_tarjeta.Text = "MANTENIMIENTO CARRERA ";
             this.btn_mant_tarjeta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_mant_tarjeta.UseVisualStyleBackColor = true;
+            this.btn_mant_tarjeta.Click += new System.EventHandler(this.btn_mant_tarjeta_Click);
             // 
             // btn_mant_estados
             // 
@@ -158,6 +159,7 @@ namespace CapaVista
             this.btn_mant_estados.Text = "MANTENIMIENTO CURSOS";
             this.btn_mant_estados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_mant_estados.UseVisualStyleBackColor = true;
+            this.btn_mant_estados.Click += new System.EventHandler(this.btn_mant_estados_Click);
             // 
             // btn_mant_cliente
             // 
