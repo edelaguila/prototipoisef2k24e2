@@ -174,6 +174,7 @@ namespace CapaVista
             this.btn_mant_cliente.Text = "MANTENIMIENTO FACULTAD";
             this.btn_mant_cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_mant_cliente.UseVisualStyleBackColor = true;
+            this.btn_mant_cliente.Click += new System.EventHandler(this.btn_mant_cliente_Click);
             // 
             // mant_moneda
             // 
@@ -190,6 +191,7 @@ namespace CapaVista
             this.mant_moneda.Text = "MANTENIMIENTO SECCION";
             this.mant_moneda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.mant_moneda.UseVisualStyleBackColor = true;
+            this.mant_moneda.Click += new System.EventHandler(this.mant_moneda_Click);
             // 
             // btn_mant_tipo_cuenta
             // 
@@ -225,6 +227,7 @@ namespace CapaVista
             this.btnSeguridad.Text = "MANTENIMIENTOS";
             this.btnSeguridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSeguridad.UseVisualStyleBackColor = false;
+            this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
             // panelseguridad
             // 
@@ -248,7 +251,7 @@ namespace CapaVista
             this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(555, 69);
+            this.button8.Size = new System.Drawing.Size(555, 61);
             this.button8.TabIndex = 12;
             this.button8.Text = "ASIGNACION MAESTRO-CURSOS";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,6 +275,7 @@ namespace CapaVista
             this.btnReportes.Text = "TRANSACCIONAL";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btninicio
             // 

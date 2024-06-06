@@ -15,6 +15,16 @@ namespace CapaVista
         public Mantenimiento_facultad()
         {
             InitializeComponent();
+            this.navegador1.config("facultades", this, "8005");
         }
-    }
+
+        private void txt_estatus_TextChanged(object sender, EventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+            if (string.IsNullOrEmpty(textBox.Text))
+            {
+                ((TextBox)sender).Text = "1";
+            }
+        }
+    }   
 }

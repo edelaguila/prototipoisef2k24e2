@@ -16,10 +16,50 @@ namespace CapaVista
         {
             InitializeComponent();
         }
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
+        }
 
+        private void hideSubMenu()
+        {
+
+            if (panelseguridad.Visible == true)
+                panelseguridad.Visible = false;
+            if (panelayuda.Visible == true)
+                panelayuda.Visible = false;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelseguridad);
+        }
+
+        private void btnSeguridad_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelayuda);
+        }
+
+        private void btn_mant_cliente_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_facultad frm = new Mantenimiento_facultad();
+            frm.Show();
+        }
+
+        private void mant_moneda_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_seccion frm = new Mantenimiento_seccion();
+            frm.Show();
         }
     }
 }

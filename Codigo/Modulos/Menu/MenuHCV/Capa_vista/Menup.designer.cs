@@ -63,7 +63,7 @@ namespace MenuHCV
             this.panelLogo.Controls.Add(this.btnCxC);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(317, 594);
             this.panelLogo.TabIndex = 0;
@@ -77,12 +77,12 @@ namespace MenuHCV
             this.btnPrototipo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrototipo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnPrototipo.Location = new System.Drawing.Point(0, 409);
-            this.btnPrototipo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrototipo.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrototipo.Name = "btnPrototipo";
             this.btnPrototipo.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnPrototipo.Size = new System.Drawing.Size(303, 38);
             this.btnPrototipo.TabIndex = 19;
-            this.btnPrototipo.Text = "SISTEMA DE BANCO";
+            this.btnPrototipo.Text = "CORP EDUCATIVA";
             this.btnPrototipo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPrototipo.UseVisualStyleBackColor = false;
             this.btnPrototipo.Click += new System.EventHandler(this.btnPrototipo_Click);
@@ -97,7 +97,7 @@ namespace MenuHCV
             this.btnHoteleria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHoteleria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnHoteleria.Location = new System.Drawing.Point(0, 377);
-            this.btnHoteleria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHoteleria.Margin = new System.Windows.Forms.Padding(4);
             this.btnHoteleria.Name = "btnHoteleria";
             this.btnHoteleria.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnHoteleria.Size = new System.Drawing.Size(303, 38);
@@ -116,7 +116,7 @@ namespace MenuHCV
             this.btnNominas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNominas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnNominas.Location = new System.Drawing.Point(-1, 341);
-            this.btnNominas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNominas.Margin = new System.Windows.Forms.Padding(4);
             this.btnNominas.Name = "btnNominas";
             this.btnNominas.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnNominas.Size = new System.Drawing.Size(315, 38);
@@ -135,7 +135,7 @@ namespace MenuHCV
             this.btnBancos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBancos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnBancos.Location = new System.Drawing.Point(-1, 305);
-            this.btnBancos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBancos.Margin = new System.Windows.Forms.Padding(4);
             this.btnBancos.Name = "btnBancos";
             this.btnBancos.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnBancos.Size = new System.Drawing.Size(319, 38);
@@ -150,7 +150,7 @@ namespace MenuHCV
             this.pictureBox1.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox1.Image = global::Vista_MenuHCV.Properties.Resources.Logo_Bytech;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(313, 194);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -166,7 +166,7 @@ namespace MenuHCV
             this.btnInventario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInventario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnInventario.Location = new System.Drawing.Point(-1, 203);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInventario.Margin = new System.Windows.Forms.Padding(4);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnInventario.Size = new System.Drawing.Size(315, 33);
@@ -186,7 +186,7 @@ namespace MenuHCV
             this.btnCxP.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCxP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnCxP.Location = new System.Drawing.Point(-1, 540);
-            this.btnCxP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCxP.Margin = new System.Windows.Forms.Padding(4);
             this.btnCxP.Name = "btnCxP";
             this.btnCxP.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnCxP.Size = new System.Drawing.Size(416, 30);
@@ -206,7 +206,7 @@ namespace MenuHCV
             this.btnVentas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVentas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnVentas.Location = new System.Drawing.Point(0, 270);
-            this.btnVentas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVentas.Margin = new System.Windows.Forms.Padding(4);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnVentas.Size = new System.Drawing.Size(315, 38);
@@ -225,7 +225,7 @@ namespace MenuHCV
             this.btncompras.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncompras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btncompras.Location = new System.Drawing.Point(-1, 234);
-            this.btncompras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncompras.Margin = new System.Windows.Forms.Padding(4);
             this.btncompras.Name = "btncompras";
             this.btncompras.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btncompras.Size = new System.Drawing.Size(319, 36);
@@ -245,7 +245,7 @@ namespace MenuHCV
             this.btnCxC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCxC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnCxC.Location = new System.Drawing.Point(0, 567);
-            this.btnCxC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCxC.Margin = new System.Windows.Forms.Padding(4);
             this.btnCxC.Name = "btnCxC";
             this.btnCxC.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnCxC.Size = new System.Drawing.Size(520, 28);
@@ -266,7 +266,7 @@ namespace MenuHCV
             this.panelSideMenu.Controls.Add(this.panelLogo);
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelSideMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelSideMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelSideMenu.Name = "panelSideMenu";
             this.panelSideMenu.Size = new System.Drawing.Size(317, 729);
             this.panelSideMenu.TabIndex = 46;
@@ -280,7 +280,7 @@ namespace MenuHCV
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnLogout.Location = new System.Drawing.Point(-1, 482);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnLogout.Size = new System.Drawing.Size(301, 50);
@@ -299,7 +299,7 @@ namespace MenuHCV
             this.btnseguridad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnseguridad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.btnseguridad.Location = new System.Drawing.Point(0, 455);
-            this.btnseguridad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnseguridad.Margin = new System.Windows.Forms.Padding(4);
             this.btnseguridad.Name = "btnseguridad";
             this.btnseguridad.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnseguridad.Size = new System.Drawing.Size(300, 27);
