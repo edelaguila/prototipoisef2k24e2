@@ -91,6 +91,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Mantenimiento_facultad.resx">
+      <DependentUpon>Mantenimiento_facultad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>
     </EmbeddedResource>
