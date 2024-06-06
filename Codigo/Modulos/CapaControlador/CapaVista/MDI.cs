@@ -49,5 +49,17 @@ namespace CapaVista
         {
             showSubMenu(panelayuda);
         }
+
+        private void btn_mant_cliente_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_facultad frm = new Mantenimiento_facultad();
+            frm.Show();
+        }
+
+        private void mant_moneda_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_seccion frm = new Mantenimiento_seccion();
+            frm.Show();
+        }
     }
 }
