@@ -66,7 +66,7 @@ namespace CapaVista
             // 
             // txt_estatus
             // 
-            this.txt_estatus.Location = new System.Drawing.Point(728, 192);
+            this.txt_estatus.Location = new System.Drawing.Point(717, 192);
             this.txt_estatus.Name = "txt_estatus";
             this.txt_estatus.Size = new System.Drawing.Size(43, 22);
             this.txt_estatus.TabIndex = 3;
