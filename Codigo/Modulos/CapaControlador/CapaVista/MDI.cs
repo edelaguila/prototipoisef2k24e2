@@ -73,5 +73,17 @@ namespace CapaVista
             Mantenimiento_carrera form = new Mantenimiento_carrera();
             form.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AsignacionCursos frm = new AsignacionCursos();
+            frm.ShowDialog();
+        }
+
+        private void btn_mant_tipo_cuenta_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_maestros f = new Mantenimiento_maestros();
+            f.ShowDialog();
+        }
     }
 }

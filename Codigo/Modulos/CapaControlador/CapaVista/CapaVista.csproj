@@ -94,6 +94,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AsignacionCursos.resx">
+      <DependentUpon>AsignacionCursos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimiento_carrera.resx">
       <DependentUpon>Mantenimiento_carrera.cs</DependentUpon>
     </EmbeddedResource>

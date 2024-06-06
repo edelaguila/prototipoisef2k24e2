@@ -15,6 +15,7 @@ namespace CapaVista
         public Mantenimiento_maestros()
         {
             InitializeComponent();
+            this.navegador1.config("maestros", this);
         }
     }
 }

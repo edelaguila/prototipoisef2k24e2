@@ -68,9 +68,8 @@ namespace CapaVista
             this.panelSideMenu.Controls.Add(this.panelLogo);
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelSideMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(576, 663);
+            this.panelSideMenu.Size = new System.Drawing.Size(432, 539);
             this.panelSideMenu.TabIndex = 47;
             // 
             // btnsalir
@@ -82,11 +81,10 @@ namespace CapaVista
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsalir.ForeColor = System.Drawing.Color.Black;
-            this.btnsalir.Location = new System.Drawing.Point(0, 873);
-            this.btnsalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnsalir.Location = new System.Drawing.Point(0, 710);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
-            this.btnsalir.Size = new System.Drawing.Size(555, 64);
+            this.btnsalir.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
+            this.btnsalir.Size = new System.Drawing.Size(415, 52);
             this.btnsalir.TabIndex = 13;
             this.btnsalir.Text = "SALIR";
             this.btnsalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -101,11 +99,10 @@ namespace CapaVista
             this.btnayuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnayuda.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnayuda.ForeColor = System.Drawing.Color.Black;
-            this.btnayuda.Location = new System.Drawing.Point(0, 815);
-            this.btnayuda.Margin = new System.Windows.Forms.Padding(4);
+            this.btnayuda.Location = new System.Drawing.Point(0, 663);
             this.btnayuda.Name = "btnayuda";
-            this.btnayuda.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
-            this.btnayuda.Size = new System.Drawing.Size(555, 58);
+            this.btnayuda.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
+            this.btnayuda.Size = new System.Drawing.Size(415, 47);
             this.btnayuda.TabIndex = 12;
             this.btnayuda.Text = "AYUDA";
             this.btnayuda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,10 +117,9 @@ namespace CapaVista
             this.panelayuda.Controls.Add(this.mant_moneda);
             this.panelayuda.Controls.Add(this.btn_mant_tipo_cuenta);
             this.panelayuda.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelayuda.Location = new System.Drawing.Point(0, 473);
-            this.panelayuda.Margin = new System.Windows.Forms.Padding(4);
+            this.panelayuda.Location = new System.Drawing.Point(0, 385);
             this.panelayuda.Name = "panelayuda";
-            this.panelayuda.Size = new System.Drawing.Size(555, 342);
+            this.panelayuda.Size = new System.Drawing.Size(415, 278);
             this.panelayuda.TabIndex = 11;
             this.panelayuda.Visible = false;
             // 
@@ -133,11 +129,10 @@ namespace CapaVista
             this.btn_mant_tarjeta.FlatAppearance.BorderSize = 0;
             this.btn_mant_tarjeta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_mant_tarjeta.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.btn_mant_tarjeta.Location = new System.Drawing.Point(0, 252);
-            this.btn_mant_tarjeta.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_mant_tarjeta.Location = new System.Drawing.Point(0, 204);
             this.btn_mant_tarjeta.Name = "btn_mant_tarjeta";
-            this.btn_mant_tarjeta.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.btn_mant_tarjeta.Size = new System.Drawing.Size(555, 63);
+            this.btn_mant_tarjeta.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
+            this.btn_mant_tarjeta.Size = new System.Drawing.Size(415, 51);
             this.btn_mant_tarjeta.TabIndex = 14;
             this.btn_mant_tarjeta.Text = "MANTENIMIENTO CARRERA ";
             this.btn_mant_tarjeta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -150,11 +145,10 @@ namespace CapaVista
             this.btn_mant_estados.FlatAppearance.BorderSize = 0;
             this.btn_mant_estados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_mant_estados.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.btn_mant_estados.Location = new System.Drawing.Point(0, 189);
-            this.btn_mant_estados.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_mant_estados.Location = new System.Drawing.Point(0, 153);
             this.btn_mant_estados.Name = "btn_mant_estados";
-            this.btn_mant_estados.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.btn_mant_estados.Size = new System.Drawing.Size(555, 63);
+            this.btn_mant_estados.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
+            this.btn_mant_estados.Size = new System.Drawing.Size(415, 51);
             this.btn_mant_estados.TabIndex = 13;
             this.btn_mant_estados.Text = "MANTENIMIENTO CURSOS";
             this.btn_mant_estados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -167,11 +161,10 @@ namespace CapaVista
             this.btn_mant_cliente.FlatAppearance.BorderSize = 0;
             this.btn_mant_cliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_mant_cliente.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.btn_mant_cliente.Location = new System.Drawing.Point(0, 126);
-            this.btn_mant_cliente.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_mant_cliente.Location = new System.Drawing.Point(0, 102);
             this.btn_mant_cliente.Name = "btn_mant_cliente";
-            this.btn_mant_cliente.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.btn_mant_cliente.Size = new System.Drawing.Size(555, 63);
+            this.btn_mant_cliente.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
+            this.btn_mant_cliente.Size = new System.Drawing.Size(415, 51);
             this.btn_mant_cliente.TabIndex = 12;
             this.btn_mant_cliente.Text = "MANTENIMIENTO FACULTAD";
             this.btn_mant_cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,11 +177,10 @@ namespace CapaVista
             this.mant_moneda.FlatAppearance.BorderSize = 0;
             this.mant_moneda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mant_moneda.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.mant_moneda.Location = new System.Drawing.Point(0, 63);
-            this.mant_moneda.Margin = new System.Windows.Forms.Padding(4);
+            this.mant_moneda.Location = new System.Drawing.Point(0, 51);
             this.mant_moneda.Name = "mant_moneda";
-            this.mant_moneda.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.mant_moneda.Size = new System.Drawing.Size(555, 63);
+            this.mant_moneda.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
+            this.mant_moneda.Size = new System.Drawing.Size(415, 51);
             this.mant_moneda.TabIndex = 10;
             this.mant_moneda.Text = "MANTENIMIENTO SECCION";
             this.mant_moneda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -202,14 +194,14 @@ namespace CapaVista
             this.btn_mant_tipo_cuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_mant_tipo_cuenta.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.btn_mant_tipo_cuenta.Location = new System.Drawing.Point(0, 0);
-            this.btn_mant_tipo_cuenta.Margin = new System.Windows.Forms.Padding(4);
             this.btn_mant_tipo_cuenta.Name = "btn_mant_tipo_cuenta";
-            this.btn_mant_tipo_cuenta.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.btn_mant_tipo_cuenta.Size = new System.Drawing.Size(555, 63);
+            this.btn_mant_tipo_cuenta.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
+            this.btn_mant_tipo_cuenta.Size = new System.Drawing.Size(415, 51);
             this.btn_mant_tipo_cuenta.TabIndex = 9;
             this.btn_mant_tipo_cuenta.Text = "MANTENIMIENTO MAESTROS";
             this.btn_mant_tipo_cuenta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_mant_tipo_cuenta.UseVisualStyleBackColor = true;
+            this.btn_mant_tipo_cuenta.Click += new System.EventHandler(this.btn_mant_tipo_cuenta_Click);
             // 
             // btnSeguridad
             // 
@@ -220,11 +212,10 @@ namespace CapaVista
             this.btnSeguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeguridad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeguridad.ForeColor = System.Drawing.Color.Black;
-            this.btnSeguridad.Location = new System.Drawing.Point(0, 408);
-            this.btnSeguridad.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSeguridad.Location = new System.Drawing.Point(0, 332);
             this.btnSeguridad.Name = "btnSeguridad";
-            this.btnSeguridad.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
-            this.btnSeguridad.Size = new System.Drawing.Size(555, 65);
+            this.btnSeguridad.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
+            this.btnSeguridad.Size = new System.Drawing.Size(415, 53);
             this.btnSeguridad.TabIndex = 10;
             this.btnSeguridad.Text = "MANTENIMIENTOS";
             this.btnSeguridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -236,10 +227,9 @@ namespace CapaVista
             this.panelseguridad.BackColor = System.Drawing.Color.LightSlateGray;
             this.panelseguridad.Controls.Add(this.button8);
             this.panelseguridad.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelseguridad.Location = new System.Drawing.Point(0, 339);
-            this.panelseguridad.Margin = new System.Windows.Forms.Padding(4);
+            this.panelseguridad.Location = new System.Drawing.Point(0, 276);
             this.panelseguridad.Name = "panelseguridad";
-            this.panelseguridad.Size = new System.Drawing.Size(555, 69);
+            this.panelseguridad.Size = new System.Drawing.Size(415, 56);
             this.panelseguridad.TabIndex = 9;
             this.panelseguridad.Visible = false;
             // 
@@ -250,14 +240,14 @@ namespace CapaVista
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(555, 61);
+            this.button8.Padding = new System.Windows.Forms.Padding(64, 0, 0, 0);
+            this.button8.Size = new System.Drawing.Size(415, 50);
             this.button8.TabIndex = 12;
             this.button8.Text = "ASIGNACION MAESTRO-CURSOS";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnReportes
             // 
@@ -268,11 +258,10 @@ namespace CapaVista
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.ForeColor = System.Drawing.Color.Black;
-            this.btnReportes.Location = new System.Drawing.Point(0, 269);
-            this.btnReportes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReportes.Location = new System.Drawing.Point(0, 219);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
-            this.btnReportes.Size = new System.Drawing.Size(555, 70);
+            this.btnReportes.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
+            this.btnReportes.Size = new System.Drawing.Size(415, 57);
             this.btnReportes.TabIndex = 8;
             this.btnReportes.Text = "TRANSACCIONAL";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -288,11 +277,10 @@ namespace CapaVista
             this.btninicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btninicio.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btninicio.ForeColor = System.Drawing.Color.Black;
-            this.btninicio.Location = new System.Drawing.Point(0, 209);
-            this.btninicio.Margin = new System.Windows.Forms.Padding(4);
+            this.btninicio.Location = new System.Drawing.Point(0, 170);
             this.btninicio.Name = "btninicio";
-            this.btninicio.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
-            this.btninicio.Size = new System.Drawing.Size(555, 60);
+            this.btninicio.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
+            this.btninicio.Size = new System.Drawing.Size(415, 49);
             this.btninicio.TabIndex = 0;
             this.btninicio.Text = "INICIO";
             this.btninicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -305,19 +293,17 @@ namespace CapaVista
             this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(555, 209);
+            this.panelLogo.Size = new System.Drawing.Size(415, 170);
             this.panelLogo.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(69, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(52, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(444, 32);
+            this.label1.Size = new System.Drawing.Size(345, 25);
             this.label1.TabIndex = 8;
             this.label1.Text = "Sistema de asignación de cursos";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -326,21 +312,21 @@ namespace CapaVista
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(198, 62);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(148, 50);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 139);
+            this.pictureBox1.Size = new System.Drawing.Size(118, 113);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // MDI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1251, 663);
+            this.ClientSize = new System.Drawing.Size(938, 539);
             this.Controls.Add(this.panelSideMenu);
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MDI";
             this.Text = "MDI";
             this.panelSideMenu.ResumeLayout(false);
